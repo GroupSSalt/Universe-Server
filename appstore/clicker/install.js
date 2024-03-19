@@ -22,12 +22,12 @@ function installClicker() {
     let deskpad = document.getElementById('deskpad');
     deskpad.innerHTML += `
         <button class="padIcon" onClick="openApp('clicker')">
-            <img src="systemH/appstore/clicker/clicker.png" class="padImage">
+            <img src="https://github.com/GroupSSalt/Universe-Server/blob/main/appstore/clicker/clicker.png" class="padImage">
         </button>
     `;
 
 	let script = document.createElement('script');
-    script.src = "systemH/appstore/clicker/program/clicker.js";
+    script.src = "https://github.com/GroupSSalt/Universe-Server/blob/main/appstore/clicker/clicker/program/clicker.js";
     document.body.appendChild(script);
 
     document.getElementById('installClicker').innerHTML = "Installed";
