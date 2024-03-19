@@ -21,3 +21,5 @@ function loadAppstore() {
 		</div>
   `;
 }
+
+loadAppstore();
