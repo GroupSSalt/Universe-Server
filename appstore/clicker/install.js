@@ -27,7 +27,7 @@ function installClicker() {
     `;
 
 	let script = document.createElement('script');
-    script.src = "https://github.com/GroupSSalt/Universe-Server/blob/main/appstore/clicker/clicker.png?raw=true";
+    script.src = "https://raw.githubusercontent.com/GroupSSalt/Universe-Server/main/appstore/clicker/program/clicker.js";
     document.body.appendChild(script);
 
     document.getElementById('installClicker').innerHTML = "Installed";
